@@ -178,13 +178,13 @@ Knopky buttons;
 
 void setup() 
 {
-  Serial.begin(9600);
+  //Serial.begin(9600);
   randomSeed(analogRead(A0));
   display4.inicializace();
   buttons.inicializace();
 }
 
 void loop() {
-  Serial.println(display4.cislo);
+  //Serial.println(display4.cislo);
   buttons.stridani();
 }
